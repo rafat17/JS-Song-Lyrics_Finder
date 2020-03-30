@@ -1,0 +1,22 @@
+.wrapper{
+	position: relative;
+	top: 25%;
+}
+
+.horizontal{ 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 calc(100% - 93%) 0 calc(100% - 98%);
+}
+
+.circle{
+  position: relative;
+  padding: 0;
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: .7em;
+  border-radius: 50%;
+}
+
+#red{ background: #c83349; }
